@@ -1,0 +1,15 @@
+.vscode/
+evaluation/traces/
+evaluation/aes
+evaluation/data
+evaluation/sm4
+hitls/*
+!hitls/declarations.h
+payload/aes/*
+!payload/aes/generate.py
+!payload/aes/main.c
+!payload/aes/makefile
+payload/sm4/*
+!payload/sm4/generate.py
+!payload/sm4/main.c
+!payload/sm4/makefile
