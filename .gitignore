@@ -3,6 +3,8 @@ evaluation/traces/
 evaluation/aes
 evaluation/data
 evaluation/sm4
+hitls/*
+!hitls/declarations.h
 payload/aes/*
 !payload/aes/generate.py
 !payload/aes/main.c
