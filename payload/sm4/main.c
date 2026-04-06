@@ -112,9 +112,9 @@ int load_data(const config_t *config, sm4_sample_t samples[]) {
 	char buffer[256];
 	for (int i = 0; i < config->nsamples; ++i) {
 		if (!fgets(buffer, sizeof(buffer), fin)) {
-			real_nsamples = i;
 			break;
 		}
+		real_nsamples++;
 
 		char key_str[33], pt_str[33], ct_str[33];
 		if (sscanf(buffer, "%32s %32s %32s", key_str, pt_str, ct_str) != 3) {
